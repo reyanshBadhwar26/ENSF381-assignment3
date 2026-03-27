@@ -120,7 +120,50 @@ img {
   border: 2px solid #e4b48c;
   border-radius: 10px;
   padding: 15px;
-  width: 300px;
-  margin: 0 auto;
+  max-width: 420px;
+  width: 100%;
+  margin: 24px auto 0;
   text-align: center;
+}
+
+.flavors-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.flavors-page .content {
+  flex: 1;
+}
+
+.flavor-catalog h2 {
+  margin-top: 0;
+}
+
+.flavor-card img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 8px;
+}
+
+.flavor-description {
+  font-size: 0.9rem;
+  margin: 8px 0;
+  line-height: 1.35;
+}
+
+.order-item {
+  border-bottom: 1px solid #e4b48c;
+  padding: 12px 0;
+  margin-bottom: 8px;
+}
+
+.order-item:last-of-type {
+  border-bottom: none;
+}
+
+.order-total {
+  margin-top: 16px;
+  font-size: 1.1rem;
 }
