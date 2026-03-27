@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
-import { Header, Footer } from './Homepage.js';
+import Header from './Header.js';
+import Footer from './Footer.js';
 
 function DisplayStatus ({type, message}){
 

@@ -2,28 +2,8 @@ import flavors from './data/flavors.js';
 import { useState, useEffect } from "react";
 import reviews from './data/reviews.js';
 import { Link } from 'react-router-dom';
-
-export function Header() {
-    return (
-        <div>
-            <header>
-                <div>
-                    <div><img src="/images/logo.webp" alt="Sweet Scoop Ice Cream Logo"/></div>
-                </div>
-
-                <div>
-                    <h1>Sweet Scoop Ice Cream</h1>
-                </div>
-            </header>
-
-            <div className="navbar">
-                <Link to='/'>Home</Link>
-                <Link to='/Login'>Login</Link>
-                <Link to='/Flavors'>Flavors</Link>
-            </div>
-        </div>
-    );
-}
+import Header from './Header.js';
+import Footer from './Footer.js';
 
 function getRandomObjects(arr, n) {
   const result = [];
@@ -87,14 +67,6 @@ function MainSection() {
             </div>
 
         </div>
-    );
-}
-
-export function Footer() {
-    return (
-        <footer>
-            <p>&copy; 2026 Sweet Scoop Ice Cream.</p>
-        </footer>
     );
 }
 
