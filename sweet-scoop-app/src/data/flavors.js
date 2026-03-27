@@ -37,7 +37,7 @@ const flavors = [
     price: "$5.79",
     description: "Buttery caramel ice cream with swirls of salted caramel sauce.",
     duration: "7 weeks",
-    image: "images/caramel-chaos.jpg"
+    image: "images/caramel.jpg"
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ const flavors = [
     price: "$5.49",
     description: "Tropical mango sorbet that makes you feel like you're on vacation.",
     duration: "6 weeks",
-    image: "images/mango-tango.jpg"
+    image: "images/mango.jpg"
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const flavors = [
     price: "$5.79",
     description: "Creamy peanut butter ice cream with chocolate fudge ribbons.",
     duration: "8 weeks",
-    image: "images/pb-panic.jpg"
+    image: "images/peanut-butter.jpg"
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ const flavors = [
     price: "$5.29",
     description: "Smooth blueberry ice cream bursting with fresh berry flavor.",
     duration: "6 weeks",
-    image: "images/blueberry-bliss.jpg"
+    image: "images/blueberry.jpg"
   },
   {
     id: 10,
@@ -77,7 +77,8 @@ const flavors = [
     price: "$5.99",
     description: "Chocolate ice cream with marshmallows, almonds, and chocolate chunks.",
     duration: "8 weeks",
-    image: "images/rocky-road-trip.jpg"
+    image: "images/rocky-road.jpg"
   }
 ];
+
 export default flavors;
