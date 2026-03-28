@@ -9,14 +9,14 @@ function Header() {
                 </div>
 
                 <div>
-                    <h1>Sweet Scoop Ice Cream</h1>
+                    <h1>Sweet Scoop Ice Cream Shop</h1>
                 </div>
             </header>
 
             <div className="navbar">
                 <Link to='/'>Home</Link>
-                <Link to='/Login'>Login</Link>
-                <Link to='/Flavors'>Flavors</Link>
+                <Link to='/flavors'>Flavors</Link>
+                <Link to='/login'>Login</Link>
             </div>
         </div>
     );

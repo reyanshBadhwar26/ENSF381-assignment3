@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <footer>
-            <p>&copy; 2026 Sweet Scoop Ice Cream.</p>
+            <p>&copy; 2026 Sweet Scoop Ice Cream. All rights reserved.</p>
         </footer>
     );
 }
